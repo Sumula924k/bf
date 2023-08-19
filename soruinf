@@ -1,5 +1,13 @@
---discord.gg/boronide, code generated using luamin.js™
-
-
-
-for b,b in next,getgc()do if game:GetService("Players").LocalPlayer.Character.Soru then if typeof(b)=="function"and getfenv(b).script==game:GetService("Players").LocalPlayer.Character.Soru then for b,b in next,getupvalues(b)do if typeof(b)=="table"then repeat wait(.1)b.LastUse=0 until a end end end end end
+for i,v in next, getgc() do
+if game:GetService("Players").LocalPlayer.Character.Soru then
+if typeof(v) == "function" and getfenv(v).script == game:GetService("Players").LocalPlayer.Character.Soru then
+for i2,v2 in next, getupvalues(v) do
+if typeof(v2) == "table" then
+repeat wait(.1)
+v2.LastUse = 0
+until a
+end
+end
+end
+end
+end
